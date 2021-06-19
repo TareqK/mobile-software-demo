@@ -1,0 +1,7 @@
+{
+  "name": "mobile-software-demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
