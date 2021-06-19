@@ -1,19 +1,17 @@
 <template>
-  <page title="Start Test">
+  <page title="Garbage Collection Test">
     <div>
-      <ion-nav-link href="/cpu-test">Start Test Suite</ion-nav-link>
+        Garbage Collection TEST
     </div>
   </page>
 </template>
 <script>
 import { defineComponent } from "vue";
 import Page from "@/views/Page.vue";
-import { IonNavLink } from "@ionic/vue";
 export default defineComponent({
-  name: "StartTest",
+  name: "GarbageCollectionTest",
   components: {
     Page,
-    IonNavLink,
   },
   methods:{
   }
