@@ -30,11 +30,13 @@
 import { defineComponent } from "vue";
 import Page from "@/views/Page.vue";
 import { Device } from "@capacitor/device";
+import {IonButton} from "@ionic/vue"
 import { measureExecutionTimeForBenchmark } from "@/utils/performanceUtils";
 export default defineComponent({
   name: "GarbageCollectionTest",
   components: {
     Page,
+    IonButton
   },
   methods: {
     generateRandomData: function (size) {
