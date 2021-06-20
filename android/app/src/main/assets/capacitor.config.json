@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "mobile-software-demo",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

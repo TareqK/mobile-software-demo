@@ -1,22 +1,21 @@
 <template>
   <page title="Start Test">
     <div>
-      <ion-nav-link href="/cpu-test">Start Test Suite</ion-nav-link>
+      <ion-button router-link="/cpu-test">Start Test Suite</ion-button>
     </div>
   </page>
 </template>
 <script>
 import { defineComponent } from "vue";
 import Page from "@/views/Page.vue";
-import { IonNavLink } from "@ionic/vue";
+import { IonButton } from "@ionic/vue";
 export default defineComponent({
   name: "StartTest",
   components: {
     Page,
-    IonNavLink,
+    IonButton,
   },
-  methods:{
-  }
+  methods: {},
 });
 </script>
 
